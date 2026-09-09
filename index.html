@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Install Slapshot</title>
+    <style>
+      body { font: -apple-system-body, system-ui, sans-serif; margin: 0;
+             padding: 2rem 1.25rem; color: #23272E; background: #fff; }
+      main { max-width: 32rem; margin: 0 auto; }
+      h1 { font-size: 1.5rem; }
+      .version { color: #6b7280; margin-top: -0.5rem; }
+      .install { display: block; text-align: center; text-decoration: none;
+                 background: #5C91B4; color: #fff; font-weight: 600;
+                 padding: 0.9rem 1rem; border-radius: 8px; margin: 1.5rem 0; }
+      .note { color: #6b7280; font-size: 0.9rem; line-height: 1.5; }
+      code { background: #f3f4f6; padding: 0.1rem 0.3rem; border-radius: 4px; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Install Slapshot</h1>
+      <p class="version">Version 1.0.0 (build 1.0.0.7)</p>
+
+      <a class="install" href="itms-services://?action=download-manifest&amp;url=https://sciometrics.github.io/slapshot-app-ios-ota-dist/manifest.plist">Tap to install</a>
+
+      <p class="note">
+        Open this page in <strong>Safari on the iOS device</strong> — the install
+        link does nothing in other browsers or on a desktop.
+      </p>
+      <p class="note">
+        This is an ad-hoc build, so it installs only on devices whose UDID is in
+        the provisioning profile. If the install does not start, or the app
+        shows as “Untrusted”, the device is probably not on the list — contact
+        <a href="mailto:support@sciometrics.com">support@sciometrics.com</a>
+        with the device UDID.
+      </p>
+    </main>
+  </body>
+</html>
